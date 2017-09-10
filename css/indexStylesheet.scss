@@ -1,0 +1,56 @@
+// @import "reset";
+$white: #ffffff;
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+section {
+    padding-top: 10%;
+    background-image: url(../image/indexBkgrn_1.jpg);
+    height: 100%;
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// @media only screen and (max-width: 600px) {
+//     section {
+//         background-image: url(../image/cover310x352.png);
+//     }
+// }
+
+.mainNav {
+    width: 100%;
+    margin: auto;
+    display: webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 0.6;
+    span {
+        display: block;
+        font-size: 1.5em;
+        width: 150px;
+        margin-left: 130px;
+        color: $white;
+    }
+    .navLink {
+        display: block;
+        margin-right: 130px;
+        ul {
+            li {
+                display: inline;
+            }
+        }
+    }
+    .c-hyperlink {
+        font-size: 1.2em;
+        padding-left: 2em;
+        color: $white;
+    }
+}
+

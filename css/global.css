@@ -1,0 +1,56 @@
+body {
+  background-color: #333333;
+}
+
+.pageNav {
+  width: 85%;
+  margin: auto;
+  display: webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.pageNav span {
+  display: block;
+  font-size: 1.5em;
+  width: 150px;
+  color: #e6e6e6;
+}
+
+.pageNav .navLink {
+  display: block;
+}
+
+.pageNav .navLink ul li {
+  display: inline-block;
+}
+
+.pageNav .c-hyperlink {
+  font-size: 1.2em;
+  padding-left: 2em;
+  color: #e6e6e6;
+}
+
+#dropdownMenu {
+  font-size: 1.2em;
+  color: #e6e6e6;
+  margin-left: 17px;
+}
+
+#dropdownMenu x-hidden-focus::after {
+  font-size: 1.2em;
+  color: #e6e6e6;
+}
+
+.c-carousel {
+  width: 97%;
+  height: 77%;
+  margin: auto;
+}
+
+.linkedLogo {
+  width: 1.3em;
+  padding-bottom: 5px;
+}

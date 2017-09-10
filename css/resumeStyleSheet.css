@@ -1,0 +1,11 @@
+section {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+section #resumeImg {
+  width: 60%;
+  margin: 50px 0 100px 0;
+}
